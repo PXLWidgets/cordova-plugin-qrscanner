@@ -202,7 +202,7 @@ class QRScanner : CDVPlugin, AVCaptureMetadataOutputObjectsDelegate {
     }
 
     @objc func boolToNumberString(bool: Bool) -> String{
-        if(bool) {CHANGELOG
+        if(bool) {
             return "1"
         } else {
             return "0"
